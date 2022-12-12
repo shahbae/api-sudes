@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "surat_masuks",
+  "info": {
+    "singularName": "surat-masuk",
+    "pluralName": "surat-masuks",
+    "displayName": "surat_masuk",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "no_surat": {
+      "type": "string"
+    },
+    "no_agenda": {
+      "type": "string"
+    },
+    "jenis_surat": {
+      "type": "string"
+    },
+    "kategori_surat": {
+      "type": "string"
+    },
+    "tanggal_surat": {
+      "type": "date"
+    },
+    "file_surat": {
+      "type": "string"
+    },
+    "fileUrl": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

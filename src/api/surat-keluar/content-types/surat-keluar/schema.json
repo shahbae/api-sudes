@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "surat_keluars",
+  "info": {
+    "singularName": "surat-keluar",
+    "pluralName": "surat-keluars",
+    "displayName": "Surat_keluar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "no_surat": {
+      "type": "string"
+    },
+    "no_agenda": {
+      "type": "string"
+    },
+    "jenis_surat": {
+      "type": "string"
+    },
+    "kategori_surat": {
+      "type": "string"
+    },
+    "tanggal_surat": {
+      "type": "date"
+    },
+    "file_surat": {
+      "type": "string"
+    }
+  }
+}
